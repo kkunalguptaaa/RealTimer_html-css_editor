@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Codeplayer</title>
+        <script tpye="text/javascript" src="jquery3.min.js"></script>
+        <link rel="stylesheet" href="codeplayer.css">
+
+  </head>
+    
+    <body>
+       
+        <div id="header">
+            <div id="logo">CodePlayer!</div>
+            
+            <div id="buttonContainer">
+                
+                <div class="toggleButton active" id="html">HTML</div>
+                
+                <div class="toggleButton" id="css">CSS</div>
+                
+                <div class="toggleButton active" id="output">OUTPUT</div>
+            
+            </div>
+            <div class="loginHover" id="login" value="login"><span class="glyphicon glyphicon-log-in"></span>login</div>
+        </div>
+        
+        <div id="bodyContainer">
+            
+            <textarea id="htmlPanel" class="panel"><p>Hello World!</p></textarea>
+            
+             <textarea id="cssPanel" class="panel hidden">p{
+                                                            color:green;
+                                                            }</textarea>
+            
+            <iframe id="outputPanel" class="panel"></iframe>
+        
+        </div>
+      <script tpye="text/javascript" src="codeplayer.js"></script>
+
+    </body>
+</html>
