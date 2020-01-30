@@ -1,0 +1,110 @@
+
+           
+body{
+                font-family: sans-serif;
+                padding: 0px;
+                margin: 0px;
+
+            }
+            
+
+            #header{
+                width:99.2S;
+                background-color: #77CC6D;
+                padding: 5px;
+                height: 45px;
+            }
+            #logo{
+                float: left;
+                font-weight: bold;
+                font-size: 150%;
+                padding: 3px 5px;
+                color: #ffffff;
+                position: relative;
+                bottom: -10px;
+                font-family: cursive;
+                
+            }
+            #buttonContainer{
+                color: #ffffff;
+                font-size: 110%;
+                width: 233px;
+                margin: 0 auto;
+                cursor: pointer;
+                position: relative;
+                bottom: -10px;
+                font-family: cursive;
+                
+               
+            }
+            .toggleButton{
+                float: left;
+                padding: 6px;
+                border-right: none;
+                font-size: 90%;
+                font-family: cursive;
+            } 
+            #html{
+                margin-right: 2px;
+               
+               font-weight: bold;
+                
+               
+            }
+             #output{
+                 margin-left: 2px;
+                font-weight: bold;
+            }
+            #css{
+               font-weight: bold;
+            }
+            
+            #login{
+                color:#ffffff;
+                font-size: 17.7px;
+                font-weight: bold;
+                float: right;
+                padding: 4px 15px ;
+                border: none;
+                margin:2px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                cursor: pointer;
+                position: relative;
+                bottom: -10px;
+                font-family: cursive;
+                
+              
+            }
+            .active{
+                
+                color:#000000;
+            }
+            .highlightedButton{
+                
+                color: #000000;
+            }
+            
+            textarea{
+                font-size: 17px;
+                resize: none;
+                border-top: none;
+                border-color: gray;
+            }
+            
+            .panel{
+               
+                float: left;
+                border-top:1px solid grey;
+                border-left: none;
+                background-color:#F8F8F8;
+            }
+            iframe{
+                
+                border: none;
+                border-right: 1px solid grey;
+    
+            }
+            .hidden{
+                display: none;
+            }
